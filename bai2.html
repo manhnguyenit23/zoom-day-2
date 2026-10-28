@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 2</title>
+    <style>
+        #form-dang-ky {
+            width: 400px;
+            border: 1px solid gray;
+            padding: 20px;
+            background-color: whitesmoke;
+        }
+
+        h2 {
+            color: blue;
+            text-align: center;
+        }
+
+        label {
+            font-size: 16px;
+        }
+
+        input {
+            padding: 5px;
+        }
+
+        .nut-dang-ky {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Đăng ký khóa học</h2>
+
+    <form id="form-dang-ky">
+        <p>
+            <label>Họ và tên:</label>
+            <input type="text">
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email">
+        </p>
+        <p>
+            <label>Mật khẩu:</label>
+            <input type="password">
+        </p>
+        <p>
+            <label>Giới tính:</label>
+            <input type="radio" name="gioi-tinh"> Nam
+            <input type="radio" name="gioi-tinh"> Nữ
+        </p>
+        <p>
+            <label>Khóa học:</label>
+            <select>
+                <option>HTML/CSS</option>
+                <option>JavaScript</option>
+                <option>ReactJS</option>
+            </select>
+        </p>
+        <p>
+            <label>Ghi chú:</label>
+            <textarea></textarea>
+        </p>
+        <p>
+            <input type="checkbox">
+            <label>Tôi đồng ý với điều khoản</label>
+        </p>
+
+        <button type="submit" class="nut-dang-ky">Đăng ký</button>
+    </form>
+</body>
+
+</html>
